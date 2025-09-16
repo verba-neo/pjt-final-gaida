@@ -1,2 +1,5 @@
-print('neo2')
-print('neo')
+from langgraph.graph import StateGraph
+
+builder = StateGraph()
+
+builder.compile()
