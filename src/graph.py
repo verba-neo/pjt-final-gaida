@@ -1,1 +1,2 @@
-print('neo');
+print('neo2')
+print('neo')
