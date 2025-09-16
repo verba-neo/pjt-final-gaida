@@ -1,5 +1,6 @@
-from langgraph.graph import StateGraph
+from langgraph.graph import StateGraph, MessagesState
 
-builder = StateGraph()
+
+builder = StateGraph(MessagesState)
 
 builder.compile()
